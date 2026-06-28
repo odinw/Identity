@@ -1,4 +1,5 @@
 ﻿using Identity.DTOs;
+using Identity.Services;
 using Isopoh.Cryptography.Argon2;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -8,7 +9,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace Identity.Services;
+namespace Identity.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
